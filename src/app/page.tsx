@@ -62,7 +62,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-           　予定と実績を可視化します
+           予定と実績を可視化します
           </p>
         </a>
 
