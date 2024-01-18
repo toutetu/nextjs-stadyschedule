@@ -1,4 +1,5 @@
 import Image from 'next/image'
+// import SkillCard from "./Skillcard";
 
 export default function Home() {
   return (
@@ -8,6 +9,16 @@ export default function Home() {
         <div className='flex '>日付 &nbsp;&nbsp;  <input type="date" className='border-2 w-30 text-right'/> </div>
         予定  xxxx 時間 &nbsp;&nbsp;&nbsp;実績  xxxx 時間
         <div  className='flex '>メモ&nbsp;xxxxxxxx</div>
+{/* 
+        <SkillCard
+          skill={"React"}
+          level={1} /> */}
+
+
+
+
+
+
 
 
         <a
@@ -19,3 +30,5 @@ export default function Home() {
     </main>
   )
 }
+
+
