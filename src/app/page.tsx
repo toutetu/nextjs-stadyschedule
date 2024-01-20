@@ -1,4 +1,6 @@
-import Image from 'next/image'
+
+import React from "react"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -14,7 +16,7 @@ export default function Home() {
 
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
+        <Link
           href="../yotei"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           // target="_blank"
@@ -29,9 +31,9 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             曜日ごとの学習予定時間を登録します
           </p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="../jisseki"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           // target="_blank"
@@ -46,10 +48,10 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
           学習実績を登録します
           </p>
-        </a>
+        </Link>
 
 
-        <a
+        <Link
           href="../kiroku"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           // target="_blank"
@@ -64,9 +66,9 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
            予定と実績を可視化します
           </p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="../login"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           // target="_blank"
@@ -81,7 +83,7 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             ログインを実装します（予定）
           </p>
-        </a>
+        </Link>
 
 
       </div>
